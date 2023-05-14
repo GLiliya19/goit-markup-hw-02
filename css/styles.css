@@ -142,19 +142,7 @@ body {
 
 .benefits {}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+.benefitst-title {}
 
 .benefits-list {}
 
@@ -208,7 +196,7 @@ body {
 .portfolio-item {}
 
 .portfolio-btn {
-    background-color: #E7E9FC;
+    background-color: #F4F4FD;
     color: #4D5AE5;
 
 }
