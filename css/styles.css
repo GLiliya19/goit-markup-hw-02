@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
 }
 
 .list {
@@ -11,6 +11,41 @@ body {
     text-decoration: none;
 }
 
+:root {
+    --title-color: #2E2F42;
+    --typical-lh: 1.5;
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.third-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.text {
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
 /*-----------HEADER-------------*/
 
 .header {}
@@ -18,23 +53,26 @@ body {
 .header-nav {}
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1, 17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
 }
 
 .logo-span {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+}
+
+.h-span {
+    color: #2E2F42;
 }
 
 .header-list {}
@@ -44,9 +82,9 @@ body {
 .header-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: var(--typical-lh);
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .header-link:is(:hover, :focus) {
@@ -62,7 +100,7 @@ body {
 .header-address-link {
     font-style: normal;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -86,12 +124,7 @@ body {
 }
 
 .hero-btn {
-    background-color: #404BBF;
-    ;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
     color: #FFFFFF;
 }
 
@@ -107,30 +140,15 @@ body {
 
 .benefits-item {}
 
-.benefits-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
+.benefits-item-title {}
 
-.benefits-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+.benefits-item-text {}
 
 /*-----------WORKS-------------*/
 
 .works {}
 
-.works-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-}
+.works-title {}
 
 .works-list {}
 
@@ -145,12 +163,7 @@ body {
     ;
 }
 
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-}
+.team-title {}
 
 .team-list {}
 
@@ -160,39 +173,59 @@ body {
 
 .team-item-img {}
 
-.team-item-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.team-item-name {}
+
+.team-item-text {}
+
+
+/*-----------PORTFOLIO-------------*/
+/*--------------MENU-------------*/
+
+.portfolio {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-btn {
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+
 }
 
-.team-item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.portfolio-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.example-list {}
+
+.example-item {}
+
+.example-link {}
+
+.example-img {}
+
+.example-title {}
+
+.example-text {
     color: #434455;
 }
+
 
 /*-----------FOOTER-------------*/
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--title-color);
 }
 
-.footer-logo {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1, 17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.f-span {
     color: #F4F4FD;
 }
 
 .footer-text {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
